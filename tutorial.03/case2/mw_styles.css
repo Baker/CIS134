@@ -1,0 +1,83 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author: Francis Baker    
+   Date:   02/22/16
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+
+*/
+
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+#articleheader {
+    font-size: 18px;
+    font-weight: normal;
+    font-kerning: 7px;
+    text-align: left;
+    }
+nav {
+    background-color: rgb(125, 120, 89);
+    line-height: 3em;
+}
+nav > ul > li {
+    list-style: none;
+}
+nav > ul > li > a {
+    text-decoration: none; 
+    color: white;
+    opacity: .5;
+}
+.ie nav > ul > li > a {
+    color: white;
+}
+nav > ul > li:hover {
+    list-style: url("wheelmarker.png");
+}
+nav > ul > li > a:hover {
+    color: white;
+    opacity: 1;
+}
+.ie nav > ul > li > a:hover {
+    color: yellow; 
+}
+#leftsection {
+    font-size: 22px;
+}
+#leftsection:first-line {
+    text-transform: uppercase;
+}
+blockquote { 
+    background-color: rgb(131, 121, 36);
+    color: white;
+    font-size: 16px;
+    font-family: Comic Samns MS, Times, cursive;
+    quotes: "«" "»";
+}
+#rightsection > h1 { 
+    font-size: 22px;
+    font-kerning: 3px;
+    font-weight: normal;
+    
+}
+#rightsection > h2 {
+    font-size: 18px;
+    text-align: right;
+    font-weight: normal;
+}
+#rightsection > p {
+    color: grey;
+    font-size: 14px;
+    text-align: justify;
+}
+address { 
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+}

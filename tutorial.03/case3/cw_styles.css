@@ -1,0 +1,127 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 3
+
+   Civil War History Text and Color Style
+   Author: Francis Baker    
+   Date:   2-22-16
+
+   Filename:         cw_styles.css
+   Supporting Files: cw_layout.css
+
+*/
+
+@import 'cw_layout.css';
+body {
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+h1{
+    color: hsl(212, 0%, 0%);
+    opacity: 0.4;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-weight: normal;
+    font-kerning: 5px;
+    text-indent: 5px;
+    
+}h2{
+    color: hsl(212, 0%, 0%);
+    opacity: 0.4;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-weight: normal;
+    font-kerning: 5px;
+    text-indent: 5px;
+    
+}h3{
+    color: hsl(212, 0%, 0%);
+    opacity: 0.4;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-weight: normal;
+    font-kerning: 5px;
+    text-indent: 5px;
+}h4{
+    color: hsl(212, 0%, 0%);
+    opacity: 0.4;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-weight: normal;
+    font-kerning: 5px;
+    text-indent: 5px;
+}h5{
+    color: hsl(212, 0%, 0%);
+    opacity: 0.4;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-weight: normal;
+    font-kerning: 5px;
+    text-indent: 5px;
+}h6{
+    color: hsl(212, 0%, 0%);
+    opacity: 0.4;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-weight: normal;
+    font-kerning: 5px;
+    text-indent: 5px;
+}
+body > header > h1 {
+    color: HSL(212, 100%, 29%);
+}
+.horizontal > ul {
+    font-size: 14px;
+    font-weight: bold;
+    font-kerning: 3px;
+    line-height: 20px;
+    font-weight: Century Gothic MS, sans-serif;
+}
+.horizontal > ul > li > a {
+    text-decoration: none;
+    color: HSL(212, 100%, 70%);
+}
+.horizontal > ul > li > a:hover {
+    color: HSL(212, 100%, 29%);
+}
+.vertical {
+    background-color: hsl(32, 100%, 95%);
+}
+.vertical > h4 { 
+    color: HSL(32, 0%, 0%);
+    opacity: .5;
+    font-size: 18px;
+    text-indent: 15px;
+}
+.vertical > ol {
+    list-style-type: upper-roman;
+    line-height: 2em;
+}
+.vertical > ol > li > ol {
+    list-style-type: upper-alpha;
+    line-height: 2em;
+}
+.vertical > ol > li > a {
+    text-decoration: none;
+    color: HSL(212, 100%, 29%);
+    opacity: .6
+    
+}
+.vertical > ol > li > ol > li > a {
+    text-decoration: none;
+    color: HSL(212, 100%, 29%);
+    opacity: .6;
+}
+.vertical > ol > li > a:hover {
+    opacity: 1.0;
+    text-decoration: underline;
+}
+.vertical > ol > li > ol > li > a:hover {
+    opacity: 1.0;
+    text-decoration: underline;
+}
+section {
+    background-color: HSL(212, 95%, 90%);
+}
+footer { 
+    line-height: 30px;
+    text-align: center;
+    font-size; 10px;
+}
+article > p:first-letter {
+    font-size: 32px;
+}
