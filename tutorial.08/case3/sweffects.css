@@ -1,0 +1,39 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case Problem 3
+
+   Special Effects style sheet
+   Author: Francis Baker 
+   Date:   5-1-16
+
+   Filename:         sweffects.css
+   Supporting Files: 
+
+*/
+
+
+
+
+body {
+	background: -o-radial-gradient(40% 70%, circle closest-corner, white, rgba(171, 171, 171. 0.5) 50%), 
+				-o-radial-gradient(80% 20%, circle closest-corner, white, rgba(171, 171, 171. 0.5) 20%),
+				-o-radial-gradient(10% 10%, ellipse closest-side, white, rgba(171, 171, 171. 0.5) 25%);
+	
+	background: -ms-radial-gradient(40% 70%, circle closest-corner, white, rgba(171, 171, 171, 0.5) 50%),
+				-ms-radial-gradient(80% 20%, circle closest-corner, white, rgba(171, 171, 171. 0.5) 20%),
+				-ms-radial-gradient(10% 10%, ellipse closest-side, white, rgba(171, 171, 171. 0.5) 25%);
+	
+	background: -moz-radial-gradient(40% 70%, circle closest-corner, white, rgba(171, 171, 171, 0.5) 50%),
+				-moz-radial-gradient(80% 20%, circle closest-corner, white, rgba(171, 171, 171. 0.5) 20%),
+				-moz-radial-gradient(10% 10%, ellipse closest-side, white, rgba(171, 171, 171. 0.5) 25%);
+	
+	background: -webkit-gradient(radial, 40%, 0, 70%, 180, from(white), color-stop(50, rgba(171, 171, 171, 0.5))),
+				-webkit-gradient(radial, 80%, 0, 20%, 90, from(white), color-stop(50, rgba(171, 171, 171, 0.5))),
+				-webkit-gradient(radial, 10%, 0, 10%, 20, from(white), color-stop(50, rgba(171, 171, 171, 0.5)));
+	
+	background: radial-gradient(circle closest-corner at 40% 70%, white, rgba(171,171,171,0.5) 50%), 
+                radial-gradient(circle closest-corner at 80% 20%, white, rgba(171,171,171,0.5) 20%), 
+	            radial-gradient(ellipse closest-side at 10% 10%, white, rgba(171,171,171,0.5) 25%);
+	
+}

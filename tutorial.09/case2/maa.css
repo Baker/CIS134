@@ -1,0 +1,86 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Case Problem 2
+
+   Middle Age Arts Style Sheet
+
+   Author: Francis Baker
+   Date: 5-1-2016 
+
+   Filename:         maa.css
+   Supporting Files: 
+
+*/
+
+img {
+   border-width: 0px;
+}
+
+body {
+   background-image: url(gbar.jpg);
+}
+
+a:link, a:active, a:visited  {
+color: white;
+} 
+
+table {
+   width: 810px;
+   border-collapse: collapse;   
+   padding: 0;
+}
+   
+#article1 img {
+   float: right;
+}
+
+#article1 h4 {
+   text-align: center;
+}
+#article2 h4 {
+   text-align: center;
+}
+#gutter {
+   width: 5px;
+}
+#leftcol {
+   width: 165px;
+   vertical-align: top;
+}
+
+#rightcol {
+   width: 645px;
+   vertical-align: top;
+}
+
+#rightcol table {
+   width: 645px;
+   border-collapse: collapse;
+   padding: 0;
+}
+
+#rightcol table tr td {
+   vertical-align: center;
+ }
+ 
+#article1 {
+    width: 320px;
+	vertical-align: top;
+}
+
+#aside1 {
+   width: 320px;
+   vertical-align: top;
+   background-color: yellow;
+}
+#aside2 {
+   width: 320px;
+   vertical-align: top;
+}
+#aside1 h4, #aside2 h4{
+   text-align: center;
+} 
+#aside2 img {
+   float: right;
+}
